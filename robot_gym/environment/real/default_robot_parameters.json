@@ -1,0 +1,11 @@
+{
+  "ur10": {
+    "torque_limits": [200, 200, 200, 200, 200, 200],
+    "joint_velocity_limits": [0.3, 0.3, 0.3, 0.3, 0.3, 0.3],
+    "joint_acceleration_limits": [1.25, 1.25, 1.25, 1.25, 1.25, 1.25],
+    "joint_position_limits_lower": [-3.141593, -3.141593, -3.141593, -3.141593, -3.141593, -3.141593],
+    "joint_position_limits_upper": [3.141593, 3.141593, 3.141593, 3.141593, 3.141593, 3.141593],
+    "end_effector_linear_velocity_limits": [1, 1, 1],
+    "end_effector_angular_velocity_limits": [1, 1, 1]
+  }
+}
