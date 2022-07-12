@@ -3,7 +3,7 @@ import traceback
 from abc import ABC
 from typing import Iterable, TYPE_CHECKING, Optional
 
-from logger import logger
+from robot_gym import logger
 from .base_task import BaseTask
 from robot_gym.environment.simulation import SimulationEnvironment
 
