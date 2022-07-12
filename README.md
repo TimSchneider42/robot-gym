@@ -44,3 +44,5 @@ Find examples of rewards in `robot_gym/core/rewards`.
 For an example task, see `robot_gym/core/reacher_task.py`, which implements a simple reaching task on the UR10.
 Note that `BaseTask` will structure both the action space and the observation space as a dictionary.
 To obtain an environment that uses boxes for both, wrap the `BaseTask` instance in a `robot_gym.core.wrappers.FlattenWrapper`.
+
+Jan Schneider (Jan.Schneider@tuebingen.mpg.de) & Tim Schneider (schneider@ias.tu-darmstadt.de)
